@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchor_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_will_hero.Game_Controller">
+   <children>
+      <ImageView fitHeight="544.0" fitWidth="1002.0" pickOnBounds="true" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+         <image>
+            <Image url="@../../../Sprites/9160129.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="165.0" layoutX="67.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Sprites/Cloud01.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="134.0" layoutX="763.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Sprites/Cloud01.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="124.0" layoutX="814.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Sprites/Cloud01.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="281.0" layoutX="361.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Sprites/Cloud01.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="37.0" layoutX="845.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Sprites/coin.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="score" layoutX="892.0" layoutY="37.0" text="0">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="37.0" layoutX="845.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Sprites/coin.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="coins" layoutX="891.0" layoutY="87.0" text="0">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="pause_button" fitHeight="30.0" fitWidth="30.0" layoutX="20.0" layoutY="50.0" onMouseClicked="#resume_menu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Sprites/menu.png" />
+         </image>
+      </ImageView>
+      <ProgressBar fx:id="progress_bar" layoutX="204.0" layoutY="79.0" prefWidth="550.0" progress="0.0" style="-fx-background-size: 2; -fx-pref-height: 10;" />
+      <AnchorPane fx:id="lose_page" layoutX="100.0" layoutY="600.0" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="515.0" fitWidth="805.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../Sprites/WallpaperDog-10896570.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="236.5" layoutY="62.0" text="You Lost !!!">
+               <font>
+                  <Font name="System Bold Italic" size="62.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="70.0" fitWidth="66.0" layoutX="723.0" layoutY="433.0" onMouseClicked="#exit_page" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Sprites/open-door.png" />
+               </image>
+            </ImageView>
+            <Group fx:id="rev_group" layoutX="371.0" layoutY="387.0" onMouseClicked="#revive">
+               <children>
+                  <ImageView fitHeight="52.0" fitWidth="66.0" layoutX="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Sprites/recovery.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutY="87.0" text="REVIVE" textAlignment="CENTER">
+                     <font>
+                        <Font name="Georgia" size="28.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="64.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Sprites/coin.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="16.0" layoutY="52.0" text="-50" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+            <ImageView fitHeight="45.0" fitWidth="33.0" layoutX="181.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Sprites/coin.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="33.0" layoutX="180.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Sprites/rising.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="33.0" layoutX="180.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Sprites/score.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="lose_score" layoutX="237.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score :" wrappingWidth="280.41747283935547">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Text>
+            <Text fx:id="lose_progress" layoutX="237.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Progress :" wrappingWidth="280.41747283935547">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Text>
+            <Text fx:id="lose_coin" layoutX="237.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coins :" wrappingWidth="280.41747283935547">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="win_page" layoutX="100.0" layoutY="600.0" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="502.0" fitWidth="803.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../Sprites/WallpaperDog-10896570.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="227.5" layoutY="70.0" text="You Won !!!" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold Italic" size="62.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="70.0" fitWidth="66.0" layoutX="722.0" layoutY="422.0" onMouseClicked="#exit_page" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Sprites/open-door.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="33.0" layoutX="191.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Sprites/coin.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="33.0" layoutX="190.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Sprites/rising.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="33.0" layoutX="190.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Sprites/score.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="win_score" layoutX="247.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score :" wrappingWidth="280.41747283935547">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Text>
+            <Text fx:id="win_progress" layoutX="247.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Progress :" wrappingWidth="280.41747283935547">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Text>
+            <Text fx:id="win_coin" layoutX="247.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coins :" wrappingWidth="280.41747283935547">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pause_page" disable="true" layoutX="358.0" layoutY="153.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="250.0" style="-fx-background-color: white;" visible="false">
+         <children>
+            <ImageView fitHeight="300.0" fitWidth="250.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../Sprites/WallpaperDog-10896570.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="87.0" layoutY="60.0" onMouseClicked="#resume_menu_back" prefHeight="46.0" prefWidth="133.0" text="Resume">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <Label layoutX="85.0" layoutY="177.0" onMouseClicked="#exit_page" prefHeight="46.0" prefWidth="76.0" text="Exit">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <Label layoutX="85.0" layoutY="115.0" text="Save Game">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="45.0" fitWidth="33.0" layoutX="32.0" layoutY="184.0" onMouseClicked="#exit_page" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Sprites/open-door.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="33.0" layoutX="30.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Sprites/diskette.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="33.0" layoutX="30.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Sprites/reload.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
