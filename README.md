@@ -1,6 +1,7 @@
 # Project_Will_Hero
 
 The Game "Will Hero" is developed using Java, JavaFx and scene builder for graphical purpose.
+GamePlay [video](https://drive.google.com/file/d/1VokU04n9SS2CwnJ-h-feo_B0jfor5Kbf/view?usp=sharing)
 
 Some features that were added:
 > #### *Resuscitation*
@@ -14,5 +15,3 @@ Some ScreenShots of the Game
 ![Screenshot](https://user-images.githubusercontent.com/88682260/174832781-ea023b64-2329-4bff-9b2b-3109dc6a2953.png)
 ![Screenshot](https://user-images.githubusercontent.com/88682260/174832786-dc5530d6-9c15-4cf2-bc22-2e04e44101b2.png)
 ![Screenshot](https://user-images.githubusercontent.com/88682260/174832792-2849a259-daa1-4c5c-ab3e-c90789f90fc1.png)
-
-GamePlay [video](https://drive.google.com/file/d/1VokU04n9SS2CwnJ-h-feo_B0jfor5Kbf/view?usp=sharing)
