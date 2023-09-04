@@ -3,7 +3,7 @@
 Welcome to the exciting world of **Will Hero**, a captivating game developed using Java, JavaFX, and Scene Builder for a visually stunning experience.
 
 ## Game Preview
-
+# Before you dive into the action, check out this gameplay video
 <div>
   <a href="https://drive.google.com/file/d/1VokU04n9SS2CwnJ-h-feo_B0jfor5Kbf/view?usp=sharing">
     <img src="https://user-images.githubusercontent.com/88682260/265525176-bfd4d34b-d353-48ce-a421-bd07de822b68.gif"  alt="Gameplay Video" title="Before you dive into the action, check out this gameplay video"/>
