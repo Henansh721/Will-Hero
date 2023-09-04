@@ -4,12 +4,10 @@ Welcome to the exciting world of **Will Hero**, a captivating game developed usi
 
 ## Game Preview
 
-Before you dive into the action, check out this gameplay video: 
-<div align="center">
-  <a href="https://drive.google.com/file/d/1VokU04n9SS2CwnJ-h-feo_B0jfor5Kbf/view?usp=sharing">
-    <img src="https://your-image-url-here.com" alt="Gameplay Video" width="480" height="270" />
-  </a>
-</div>
+🎮 **Gameplay Video** 🎮
+
+[![Play Video](https://user-images.githubusercontent.com/88682260/174834117-52e3cf97-ecf4-41a2-9a36-292983d2e999.png)](https://drive.google.com/file/d/1VokU04n9SS2CwnJ-h-feo_B0jfor5Kbf/view?usp=sharing)
+
 
 ## Features
 
