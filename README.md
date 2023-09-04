@@ -5,7 +5,7 @@ Welcome to the exciting world of **Will Hero**, a captivating game developed usi
 ## Game Preview
 
 Before you dive into the action, check out this gameplay video: 
-![Gameplay Video](https://drive.google.com/file/d/1VokU04n9SS2CwnJ-h-feo_B0jfor5Kbf/view?usp=sharing)
+![Gameplay Video]("./Will Hero project final.mp4")
 | --- |
 
 ## Features
